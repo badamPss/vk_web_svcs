@@ -1,0 +1,45 @@
+# Скомпилированные двоичные файлы
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Исполняемые файлы
+*.out
+
+# Тестовые бинарники
+*.test
+
+# Папки модулей
+/vendor/
+
+# Кэш и временные файлы
+*.log
+*.tmp
+
+# Go build cache
+/go.sum.lock
+*.swp
+
+# Сгенерированные файлы
+*.prof
+*.pprof
+
+# IDE / Editor configs
+.idea/
+.vscode/
+*.iml
+
+# Сборки
+bin/
+dist/
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
